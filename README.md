@@ -74,6 +74,52 @@ A modern Android video player application built with ExoPlayer and Jetpack Compo
    ./gradlew test --tests "com.example.videoplayerstream.ui.player.VideoPlayerViewModelTest"
    ```
 
+## Tech Stack
+
+### Core Technologies
+- **Language:** Kotlin
+- **Platform:** Android
+- **Minimum SDK:** 21
+- **Target SDK:** Latest
+
+### UI Framework
+- Jetpack Compose
+- Material Design 3
+- Compose Navigation
+
+### Media Player
+- ExoPlayer (Media3)
+- MediaSource Factory
+- Custom PlayerView
+
+### Architecture Components
+- MVVM Architecture
+- ViewModel
+- StateFlow
+- Lifecycle Components
+
+### Dependency Injection
+- Hilt
+- Dagger
+
+### Asynchronous Programming
+- Kotlin Coroutines
+- Flow
+- StateFlow
+
+### Testing
+- JUnit
+- Mockk for Kotlin
+- Coroutines Test
+
+### Build Tools
+- Gradle
+- Android Build Tools
+
+### Version Control
+- Git
+- GitHub
+
 ## Architecture
 
 - MVVM Architecture
